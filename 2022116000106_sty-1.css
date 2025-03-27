@@ -1,0 +1,50 @@
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid #572800; /* 上边框 */
+  border-bottom: 4px solid #572800; /* 下边框 */
+}
+#navbar li {
+  margin: 0;
+}
+#navbar a {
+  display: block;
+  color: #572800;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #ddd;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center; /* 水平居中 */
+  margin: 20px 0 0 0; /* 上下间距 */
+}
+
+.text-container {
+  text-align: left; /* 水平居中 */
+  margin: 0 0 0 8%; /* 上下间距 */
+}
+
+.highlightred {
+  color: red;
+  font-weight: bold;
+}
+
+.highlightbrown {
+  color: #5b2a00;
+  font-weight: bold;
+}
+
+.lightgray {
+  color: #d1b6a3;
+}
